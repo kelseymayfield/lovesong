@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Bourbon St';
+    src: url('../fonts/BourbonSt-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Ninna';
+    src: url('../fonts/Ninna-Bold.woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Ninna';
+    src: url('../fonts/Ninna-BoldItalic.woff2');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('../fonts/PPNeueMontreal-Regular.woff2');
+}
+
+html {
+    padding-inline: 15%;
+}
